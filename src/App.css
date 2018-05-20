@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.bar {
+  margin: 10px;
+}
+.bar .bar-header {
+  margin-left: 50px;
+}
+
+.logo { 
+  width: 7%;
+  height: 49px;
+  margin-left: 100px;
+  color: black;
+}
+.landing{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.listItem:hover{
+  background-color: #ffcc33 !important;
+}
+.item {
+  padding: 15px 0;
+  border-bottom: 1px solid #d4caca;
+  background-color: #f2efef;
+}
+.item-name {
+  margin-top: 0px;
+  font-weight: bold;
+  color: brown;
+}
+.landing{
+  margin: 0px 100px;
+}
+.food-type-icon {
+  margin-left: 10px;
+  font-size: 15px;
+}
+.item-category {
+  background-color: #ffcc33;
+  padding: 20px !important;
+  margin: 0px;
+}
+.disabled {
+  opacity: 0.5;
+}
+.cart-icons {
+  font-size: 20px;
+  cursor: pointer;
+}
+.cart-items {
+  margin: 0;
+  background-color: #f2efef;
+}
+.delete-cart {
+  margin-left: 30%;
+}
+.cart-item-name {
+  color: brown;
+}
+.cart-accounts {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d4caca;
+}
+.totalArea{
+  padding: 15px 0;
+}
